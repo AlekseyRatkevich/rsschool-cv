@@ -14,6 +14,14 @@ Junior Frontend Developer
 
 ---
 
+### Briefly About Myself: 
+- BrSTU student (4th year).
+- Since childhood, I have been fond of various logical tasks, I love puzzles and solve various tasks in extraordinary ways.
+- I am a musician, I play electric guitar and sing. (there are several projects, mainly rock). We performed in Brest and Minsk.
+- I am interested in programming (front-end development attracts most of all). I had experience in developing mobile applications in Java in an android studio, I wrote programs in C++, I have basic knowledge of databases (sql).
+
+---
+
 ### Skills and Proficiency: 
 * HTML5, CSS3
 * JavaScript Basics
