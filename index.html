@@ -19,6 +19,7 @@
   </header>
   <main>
     <section>
+      <h2>что ты тут делаешь?)</h2>
       <article>
         <h3 class="article-header">Contact Information</h3>
         <ul>
@@ -37,7 +38,7 @@
         </ul>
       </article>
       <article>
-        <h3 class="article-header">Skills and Proficiency:</h3>
+        <h3 class="article-header">Skills and Proficiency</h3>
         <ul class="skills">
           <li>HTML5, CSS3</li>
           <li>JavaScript Basics</li>
@@ -46,6 +47,47 @@
           <li>Adobe Photoshop, Sony Vegas Pro</li>
           <li>Android Studio basics</li>
         </ul>
+      </article>
+      <article>
+        <h3 class="article-header">Code example</h3>
+        <p class="task">Carousel implementation on Javascript:</p>
+        <pre>
+          <code>let offset = 0; 
+            const sliderLine = document.querySelector('.slider-line');
+            
+            document.querySelector('.slider-next').addEventListener('click', function() {
+                offset = offset + 256 //offset += 256;
+                if (offset &gt; 768) {
+                    offset = 0;
+                }
+                sliderLine.style.left = -offset + 'px';
+            });
+            
+            document.querySelector('.slider-prev').addEventListener('click', function() {
+                offset = offset - 256 //offset -= 256;
+                if (offset &lt; 0) {
+                    offset = 768;
+                }
+                sliderLine.style.left = -offset + 'px';
+            });
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3 class="article-header">Education</h3>
+        <p>
+        <b>4th year student</b> of the <b><a href="https://www.bstu.by/">Brest State Technical University</a> </b>. Faculty of Electronic Information Systems. I study in the specialty automated information processing systems (ASOI).
+        </p>
+        <img id="bstu" src="bstu_logo.jpg" alt="bstu_logo_jpg">
+      </article>
+      <article>
+      <h3 class="article-header">Languages</h3>
+      <ol>
+        <li><b>English</b> - Intermediate/Upper-intermediate (B1/B2) according to the online test at <b><a href="https://www.efset.org/ru/">Efset.org</a></b></li>
+        <li><b>Russian</b> - Native </li>
+        <li><b>Belorussian</b> - Intermediate</li>
+      </ol>
+      <img id="efset" src="efset_results.png" alt="efset_results.png">
       </article>
     </section>
   </main>
