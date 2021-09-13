@@ -101,3 +101,37 @@ ol>li {
     width: 220px;
     height: 300px;    
 }
+
+footer {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-between;
+    background-color: #696969;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.github_logo {
+    margin-bottom: 18px;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+.rs_logo {
+    width: 90px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+figure {
+    display: block;
+}
