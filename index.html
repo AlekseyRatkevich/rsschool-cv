@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aleksey Ratkevich CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-text">
+      <h1>Aleksey Ratkevich</h1>
+      <h2>Frontend Developer</h2>
+    </div>
+    <div class="header-photo">
+      <img src="img/profile.jpg" alt="profile.pic">
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>что ты тут делаешь?)</h2>
+      <article>
+        <h3 class="article-header">Contact Information</h3>
+        <ul>
+          <li>Phone: <a href="tel:+375-33-669-93-38">+375336699338</a></li>
+          <li>E-mail: <a href="mailto:alekseyratkevich2001@gmail.com">alekseyratkevich2001@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/AlekseyRatkevich">AlekseyRatkevich</a></li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="article-header">Breafly about myself</h3>
+        <ul class="about">
+          <li>BrSTU student (4th year)</li>
+          <li>Since childhood, I have been fond of various logical tasks, I love puzzles and solve various tasks in extraordinary ways</li>
+          <li>I am a musician, I play electric guitar and sing. (there are several projects, mainly rock). We performed in Brest and Minsk</li>
+          <li>I am interested in programming (front-end development attracts most of all). I had experience in developing mobile applications in Java in an android studio, I wrote programs in C++, I have basic knowledge of databases (sql)</li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="article-header">Skills and Proficiency</h3>
+        <ul class="skills">
+          <li>HTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Git, GitHub</li>
+          <li>VS Code, IntelliJ IDEA</li>
+          <li>Adobe Photoshop, Sony Vegas Pro</li>
+          <li>Android Studio basics</li>
+        </ul>
+      </article>
+      <article>
+        <h3 class="article-header">Code example</h3>
+        <p class="task">Carousel implementation on Javascript:</p>
+        <pre>
+          <code>let offset = 0; 
+            const sliderLine = document.querySelector('.slider-line');
+            
+            document.querySelector('.slider-next').addEventListener('click', function() {
+                offset = offset + 256 //offset += 256;
+                if (offset &gt; 768) {
+                    offset = 0;
+                }
+                sliderLine.style.left = -offset + 'px';
+            });
+            
+            document.querySelector('.slider-prev').addEventListener('click', function() {
+                offset = offset - 256 //offset -= 256;
+                if (offset &lt; 0) {
+                    offset = 768;
+                }
+                sliderLine.style.left = -offset + 'px';
+            });
+          </code>
+        </pre>
+      </article>
+      <article>
+        <h3 class="article-header">Education</h3>
+        <p>
+        <b>4th year student</b> of the <b><a href="https://www.bstu.by/">Brest State Technical University</a> </b>. Faculty of Electronic Information Systems. I study in the specialty automated information processing systems (ASOI).
+        </p>
+        <img id="bstu" src="img/bstu_logo.jpg" alt="bstu_logo_jpg">
+      </article>
+      <article>
+      <h3 class="article-header">Languages</h3>
+      <ol>
+        <li><b>English</b> - Intermediate/Upper-intermediate (B1/B2) according to the online test at <b><a href="https://www.efset.org/ru/">Efset.org</a></b></li>
+        <li><b>Russian</b> - Native </li>
+        <li><b>Belorussian</b> - Intermediate</li>
+      </ol>
+      <img id="efset" src="img/efset_results.png" alt="efset_results.png">
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p class="copyright">@ 13.09.2021</p>
+    <figure>
+      <a href="https://github.com/AlekseyRatkevich"><img class="github_logo" src="img/github_logo.png" alt="github.com/alekseyratkevich"></a>
+      <a href="https://rs.school/js/"><img class="rs_logo" src="img/rsschool_logo.png" alt="rsschool_logo"></a>
+    </figure>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 50em;
+  background-color: rgb(226,226,226);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: white;
+}
+
+section>h2 {
+    display: none;
+}
+
+h2 {
+  color: #696969;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header-photo>img {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  background-color: white;
+  border-top: 1px solid #d3d3d3;
+}
+
+article {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 15px;
+}
+
+ul>li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #dc143c;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.task {
+    color: #dc143c;
+    margin-top: 10px;
+    margin-left: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+code {
+    display: block;
+    background: #dcdcdc;
+    font-size: 14px;
+}
+
+#bstu {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+   margin: 10px; 
+}
+
+ol {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+ol>li {
+    padding: 10px;
+}
+
+#efset {
+    margin-left: 30px;
+    width: 220px;
+    height: 300px;    
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-between;
+    background-color: #696969;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.github_logo {
+    margin-bottom: 18px;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+.rs_logo {
+    width: 90px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+figure {
+    display: block;
+}
