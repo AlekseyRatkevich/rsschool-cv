@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 50em;
+  background-color: rgb(226, 226, 226);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+  padding: 50px;
+  background-color: white;
+}
+
+.header-photo>img {
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+.container {
+    padding-bottom: 30px;
+    /* display: flex; */
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  nav a {
+    padding: 15px;
+  }
+  
+  .hamburger {
+    position: relative;
+    position: fixed;
+    display: block;
+    left: 85%;
+    top: 3.8%;
+    width: 35px;
+    cursor: pointer;
+    height: 35px;
+  
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 98;
+  }
+  
+  .hamburger .bar,
+  .hamburger::after,
+  .hamburger::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #696969;
+    margin: 6px 0px;
+    transition: 0.4s;
+  }
+  
+  .hamburger.is-active::before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background: white;
+  }
+  
+  .hamburger.is-active::after {
+    transform: rotate(45deg) translate(-9px, -8px);
+    background: white;
+  }
+  
+  .hamburger.is-active {
+    overflow: hidden;
+  }
+  
+  .hamburger.is-active .bar {
+    opacity: 0;
+  }
+  
+  .mobile-nav {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #696969;
+    padding-top: 100px;
+    transition: 0.4s;
+  }
+  
+  .mobile-nav.is-active {
+    left: 0;
+  }
+  
+  .mobile-nav a {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    color: white;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+  }
+
+section>h2 {
+  display: none;
+}
+
+h2 {
+  color: #696969;
+  font-size: 20px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-top: 1px solid #d3d3d3;
+}
+
+article {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 15px;
+}
+
+ul>li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #dc143c;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.task {
+  color: #dc143c;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+code {
+  display: block;
+  overflow-x: hidden;
+  background: #dcdcdc;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+#bstu {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  margin-right: 50px;
+}
+
+ol {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+ol>li {
+  padding: 10px;
+}
+
+#efset {
+  margin-left: 30px;
+  width: 220px;
+  height: 300px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  justify-content: space-between;
+  background-color: #696969;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  display: block;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.github_logo {
+  margin-bottom: 18px;
+  margin-right: 20px;
+  width: 80px;
+  height: 30px;
+}
+
+.rs_logo {
+  width: 90px;
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+figure {
+  display: flex;
+}
+
+.github_logo {
+  margin-top: 30px;
+}
