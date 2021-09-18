@@ -20,15 +20,6 @@
 
 }
 
-@media only screen and (min-width:768px) {
-    .hamburger {
-        display: none;
-    }
-
-    .mobile-nav {
-        display: none;
-    }
-}
 
 @media only screen and (max-width: 570px) {
     code {
@@ -77,5 +68,15 @@
 @media only screen and (max-width: 414px) {
     .copyright {
         font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
     }
 }
